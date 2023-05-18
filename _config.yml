@@ -1,0 +1,61 @@
+title: Quantum whatever
+author:
+  name: Andrey Geondzhian
+  email:
+  url: https://geonda.github.io/geosystems.github.io/
+  # baseurl: /geonda.github.io
+description: > # this means to ignore newlines until "show_excerpts:"
+  Cutting-edge engineering solutions and advanced automation for scientific and medical organizations. Prototypical production of complex systems, exceeding expectations with innovative technologies. Let’s shape the future of innovation together!
+show_excerpts: true
+excerpt_separator: <!-- more --> # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+gem "bulma-clean-theme"
+  # generate social links in footer
+  social_links:
+    twitter: jekyllrb
+    github:  jekyll
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+remote_theme: chrisrhymes/bulma-clean-theme
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
